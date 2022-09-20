@@ -1,0 +1,24 @@
+.vert{
+    background-color: #8FBC8F;
+}
+.t-vert{
+    color: #8FBC8F;
+}
+
+/* Animation des spinner  */
+.test {
+    display: block;
+    width: 32px;
+    animation: example 1s linear 0s infinite;
+    }
+.test:hover{
+    animation-play-state: paused;
+    }
+@keyframes example {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.menu-sidebar:hover{
+    background-color: rgb(196, 189, 202);
+}
